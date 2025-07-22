@@ -20,6 +20,11 @@
   // タイムゾーン設定（日本時間）
   timezone: "Asia/Tokyo",
 
+  // セキュリティアップデートのプルリクは作成する
+  vulnerabilityAlerts: {
+    "enabled": true
+  },
+
   // パッケージルール
   packageRules: [
     {
